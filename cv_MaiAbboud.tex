@@ -1,0 +1,165 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Mai} % Your first name
+\familyname{Abboud} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Masakin Barzah}{Damascus, Syria}
+\mobile{(+963) 996318787}
+%\email{ma1991abb@gmail.com}
+\email{mai.abboud@hiast.edu.sy}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{www.linkedin.com/in/mai-abboud-6940761b1}
+\photo[70pt][0.4pt]{pictures/profile} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{December 2019--until now}{Master student in Robotics}{Higher Institute for Applied Sciences and Technology}{Damascus}{\textit{GPA -- 79/100 first year}}{}  % Arguments not required can be left empty
+\cventry{2009--2015}{Bachelor of Electronic Systems Engineering}{Higher Institute for  Applied Sciences and Technology}{Damascus}{\textit{GPA -- 73/100}}{}
+\cventry{2006--2009}{Secondary School}{Samir Shahin School}{Lattakia}{\textit{GPA --  234/240}}{}
+
+\section{Masters Thesis}
+
+\cvitem{Title}{\emph{Improving swintrack algorithm by using temporal information}}
+\cvitem{Supervisors}{Professor Assef Jafar}
+\cvitem{Description}{This thesis is interested in visual object tracking using deep learning techniques, especially in SOTA trackers that use transformer, I choose working on swintrack algorithm which I can improve the performace form AO=69.6 on got10k dataset to AO=70.4. Now I am in the process of writing dissertation and paper (expected defende time is in October 2022) }
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+%\subsection{Vocational}
+
+\cventry{February 2021--May 2021}{Part Time junior C++ software engineer}{Masah-tech}{Damascus}{}{The work focused on develop desktop application with Qt and C++ using visual studio.}
+
+%------------------------------------------------
+
+\cventry{October 2018-- April 2019}{Fellow}{UNESCO/Poland Co-sponsored Fellowship  Program in Engineering ed 2018A}{Krakow}{}{Fellowship included workshops with UNESCO fellows about Sustainable Development Goals,and some research in vision lab in AGH University, research was about motion detection using moving camera}
+
+%------------------------------------------------
+
+%\subsection{Miscellaneous}
+
+\cventry{2015--until now}{Electronic system engineer}{Higher Institute for Applied Sciences and Technology}{Damascus}{}{Five years experience in computer vision using embedded  systems like DSP and FPGA.
+\newline{}\newline{}
+some projects I have worked on:
+\begin{itemize}
+  \item{Graduation project supervisor in computer vision, implemented on DSP using C language.}
+  \item{Implementation Normalized Cross Correlation tracker on DSP Module and FPGA in real time.}
+  \item{Image stabilization using CRS-03 Gyro, AVR32, OpenCV. }
+  \item{Digital image stabilization using OpenCV}
+\end{itemize}
+}
+
+%\cventry{2009--2010}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems. Allowed me to become expert in all forms of martial arts and weaponry.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2018}{UNESCO/Poland Co-sponsored Fellowship  Program in Engineering ed 2018A fellowship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Software and technologies skills}
+
+\cvitem{Basic}{FPGA, Quartus12, \textsc{Verilog}, \textsc{VHDL}, Mathematica, MonoDevelop-linux}
+\cvitem{Intermediate}{\textsc{pytorch}, \textsc{numpy},\LaTeX, Linux, google colab, Matlab,\textsc{C++}, Atmega8, Atmega16, AVR32, Atmel Studio, Code Vision}
+\cvitem{Advanced}{\textsc{python}, \textsc{OpenCV}, VScode, Code Composer Studio, \textsc{C}, Digital Signal Processors}
+
+%----------------------------------------------------------------------------------------
+%	Certificates
+%----------------------------------------------------------------------------------------
+
+\section{Certificates}
+
+\cvitem{December 2021}{Neural Networks and Deep Learning from DeepLearning.AI on Coursera}
+\cvitem{July 2022}{Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization on Coursera}
+\cvitem{April 2022}{Structuring Machine Learning Projects on Coursera}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Arabic}{Mothertongue}{}
+\cvitemwithcomment{English}{C2 Proficient}{EF SET English Certificate 73/100}
+\cvitemwithcomment{French}{Basic}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Hiking}{Reading}
+\cvlistdoubleitem{Swimming}{Painting}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
